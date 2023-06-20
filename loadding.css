@@ -1,0 +1,81 @@
+#loading{
+	width: 100%;
+	height: 100vh;
+    background:rgb(255, 255, 255) url(loader.gif) no-repeat center center;
+	background-size: 45%;
+	position: fixed;
+	z-index: 9999999999999;
+}
+/*black blend mode*/
+#back-blend{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	z-index: 987654321;
+	background: black;
+	background-blend-mode: overlay;
+	opacity: 0.76;
+	display: none;
+}
+/*order replay style*/
+#order-replay{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999999999;
+/*	display: flex;*/
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+#order-replay .order-replay-item{
+	width: 70%;
+	background: #eaeef0;
+	border-radius: 40px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-transform: capitalize;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#order-replay .order-replay-item h1{
+	font-size: 50px;
+	font-family: 'Barlow', sans-serif;
+	letter-spacing: 2px;
+}
+#order-replay .order-replay-item p{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 30px 0px;
+	letter-spacing: 1px;
+}
+#order-replay .order-replay-item button{
+	background: #282828;
+	color: #eaeef0;
+	font-family: 'Barlow', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	width: 140px;
+	padding: 10px 20px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

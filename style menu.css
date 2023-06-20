@@ -1,0 +1,198 @@
+.menu-food-break{
+	width: 100%;
+	height: 100vh;
+	background: #eaeef0;
+	padding-top: 0px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.menu-food-break .continer-menu-top{
+	width: 100%;
+	height: 45%;
+	background: #eaeef0;
+	position: relative;
+	z-index: 0;
+}
+.menu-food-break .menu-time-name{
+	width: 100%;
+	height: 100px;
+	padding: 40px 0 40px 60px ;
+	background: #eaeef0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.menu-food-break .menu-time-name h1{
+	font-size: 60px;
+	text-transform: capitalize;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	
+	
+	padding: 20px ;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	background-color: #282828;
+	border-radius: 20px;
+	padding: 10px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #eaeef0;
+	text-align: center;
+}
+.menu-food-break .menu-swiper-food{
+	
+}
+/*swiper menu*/
+  
+
+   .menu-food-break .menu-swiper-food {
+	   width: 100%;
+	   height: 100%;
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+	   position: relative;
+	   background: #eaeef0;
+    }
+
+    .menu-food-break .menu-swiper-food .swiper {
+      width: 100%;
+		height: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+		background: #eaeef0;
+    }
+.menu-food-break .menu-swiper-food  .swiper-wrapper{
+	position: relative;
+	top: -35px;
+}
+   	.menu-food-break .menu-swiper-food .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 450px;
+      height: 500px;
+		background-color:#282828;
+		border-radius: 40px;
+		box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px ,rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+		position: relative;
+		padding:20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+    }
+
+
+	
+
+/*meun design swiper*/
+
+.menu-food-break .img-swiper-slide{
+	width: 100%;
+	height: 210px;
+	border-radius: 40px;
+	
+	
+	
+}
+.menu-food-break .img-swiper-slide img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 40px;
+}
+.menu-food-break .title-swiper-slide{
+	
+	width: 370px;
+	height: 70px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	text-align: center;
+	
+	
+	font-family: 'Barlow', sans-serif;
+	text-transform: capitalize;
+	
+}
+.menu-food-break .title-swiper-slide h1{
+	font-size: 50px;
+	letter-spacing: 2px;
+	color:#eaeef0;
+}
+.menu-food-break .star-swiper button{
+	
+	height: 75%;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Barlow', sans-serif;
+	padding: 20px 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	background:#eaeef0;
+	border-radius: 20px;
+	
+}
+.menu-food-break .paragraph-swiper p{
+	
+	display: flex;
+	text-align: start;
+	color: #eaeef0;
+	padding: 0px 30px;
+	font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.menu-food-break .star-swiper{
+	width: 100%;
+	height: 10px;
+	top: 10px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	font-size: 27px;
+	color: #eaeef0;
+}
+.menu-food-break .star-swiper p{
+	margin-left: 10px;
+	font-size: 38px;
+	font-family: 'Barlow', sans-serif;
+	
+}
+.menu-food-break .star-swiper .star-num{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+} 
+.menu-food-break .star-swiper .star-num .price-menu{
+	margin-right: 100px;
+}
+.menu-food-break .star-swiper .star-num .price-menu2{
+	margin-right: 70px;
+}
+.menu-food-break .title-swiper-slide .kahvealti-turk{
+	font-size: 45px;
+}
+/*bottm menu*/
+.menu-food-break .botttom-menu{
+	margin-top: 160px;
+	position: relative;
+	top: -90PX;
+	z-index: 122233243;
+}
+/*menu part 2*/
+#menu-part-2{
+	width: 100%;
+	height: 100vh;
+	background: #eaeef0;
+}
